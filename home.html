@@ -1,0 +1,95 @@
+<!doctype html>
+	<html lang="en-US">
+	<head>
+		<title>OU ChatApp</title>
+	    <link rel="icon" type="image/ico" href=""> 
+	    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./css/jquery.min.js"></script>
+  <script src="./css/bootstrap.min.js"></script>
+	    <link rel="stylesheet" type="text/css"  media="only screen and (color)" href="index.css"> 
+	    <script src='https://www.google.com/recaptcha/api.js'></script>
+	</head>
+ <body><br><br>
+		<div class="container-fluid">
+		<div class="row"><div class="col-md-2"><img src="ou.png" width="150" height="130"/></div>
+		<div class="col-md-5"><h1><i><b>Osmania University</b></h1><h3>University with potential for excellence</h3><h5>ACCREDITED By <b>NACC </b>with <b>'A+'</b> Grade</i></div>
+		<div class="col-md-2"><img src="centenary.jpg" width="150" height="130"></div>
+		<br>
+		
+		<div class="col-md-1">
+		<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">About Us</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">About Us</h4>
+        </div>
+        <div class="modal-body">
+          <p>This Web Application is basically for improving the communication between Osmanians. Students can chat with their friends and lectureres.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div></div>
+		
+		</div><hr>
+
+		<div class="row back"><br><br>
+			<script>
+		window.location.hash="no-back-button"
+		window.location.hash="Again-No-back-button"
+		window.onhashchange=function(){window.location.hash="no-back-button"}
+		</script>
+		<div class="col-md-3">
+		
+		</div>
+		<div class="col-md-6"><br><form action="./loginservlet" method="get">
+				<i><div class="row" style="font-size:40px;color:#C87632;"><img src="images.png" width="170" height="150" />Osmania Email
+						</div></i>
+				<div class="row">
+				<div class="form-group col">
+						 Email ID<br><input type="text" placeholder="Registered Email" name="u1" class="form-control" id="usr" required>
+						</div></div>
+				<div class="row">
+				<div class="form-group  col">
+						 Password<input type="password" placeholder="Enter password" name="p1" class="form-control" id="usr" required>
+						</div></div><br><br>
+					<center><button class="btn btn-lg btn-warning">Login</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<a href="register.html"><button class="btn btn-lg btn-warning">Create an account</button></a></center>
+					<br>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			</div>
+			<div class="col-md-3">
+		
+			</div></form>
+		</div><br>
+
+
+
+		<!--<div class="row">
+			<div class="col-md-4"><img src="img3.jpg"  width="500" height="400"/></div>
+			<div class="col-md-4"><img src="img1.jpg" width="500" height="400"/></div>
+			<div class="col-md-4"><img src="img2.jpg"  width="480" height="400"/></div>
+		</div>
+			<br>
+		<div class="row">
+			<div class="col-md-4"><img src="img4.jpg"  width="500" height="400"/></div>
+			<div class="col-md-4"><img src="img5.jpg" width="500" height="400"/></div>
+			<div class="col-md-4"><img src="img6.jpg"  width="480" height="400"/></div>
+		</div>
+		<br><hr>
+		<div class="row">
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&copy; Copyright
+		</div>-->
+		</div>
+ </body>
+</html>

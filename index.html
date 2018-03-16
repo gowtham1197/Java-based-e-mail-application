@@ -1,0 +1,131 @@
+<!doctype html>
+	<html lang="en-US">
+	<head>
+		<title>Osmania Email</title>
+	    <link rel="icon" type="image/ico" href=""> 
+	    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" type="text/css"  media="only screen and (color)" href="index.css"> 
+	    <script src='https://www.google.com/recaptcha/api.js'></script>
+	</head>
+ <body>
+		<div class="container-fluid">
+			<div class="row"  style="background-color:#7FB3D5">
+				<div class="col-md-3">	<br><br>				
+						<div class="row"><div class="form-group col-md-7">
+						 <input type="text" placeholder=" Search here" class="form-control" id="usr">
+						</div><div class="col-md-4"><button class="btn btn-primary">Add Contacts</button></div></div><hr>
+						<div class="scrollbars">		
+						<table class="table table-striped">
+    <thead>
+	 <tr>
+       <div class="row but"><div class="col-md-2"><img src="inbox.png" width="40" height="40"/></div>
+	   <div class="col-md-4">
+	   <center><button href="#" class="btn btn-lg but">Inbox</button></div>
+	   </div>
+      </tr><br>
+
+	  <tr>
+       <div class="row but"><div class="col-md-2"><img src="outbox.png" width="40" height="40"/></div>
+	   <div class="col-md-4">
+	   <center><button href="#" class="btn btn-lg but">Outbox</button></div>
+	   </div>
+      </tr><br>
+
+	 <tr>
+       <div class="row but"><div class="col-md-2"><img src="compose.png" width="40" height="40"/></div>
+	   <div class="col-md-4">
+	   <button href="#" class="btn btn-lg but" data-toggle="modal" data-target="#myModal">Compose</button>
+	   <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Compose Window</h4>
+      </div>
+      <form>
+      <div class="modal-body">
+        <p>
+		To: <div class="form-group">
+						 <input type="text" class="form-control" id="usr"></div>
+		Subject: <div class="form-group">
+						 <input type="text" class="form-control" placeholder="optional" id="usr"></div>
+		 <textarea class="form-control" placeholder="Type your message here" style="height:400px; width:570px;"></textarea>
+			
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Send Message</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
+	   </div>
+	   </div><hr>
+	   <i><form action="./create" method="get"><h3 style="font-family:'my-font';color:#5D6D7E">Contacts</h3></form><br>
+
+
+	   		<div class="row" style="background-color:#7FB3D5">
+							 <div class="col-md-1"><br><img class="cir" src="default.png" width="70" height="70"/></div>
+							<div class="col-md-9"><b><br><br><h4>laxman.madipadige@gmail.com</h4></b></div>
+						</div>
+<br>
+<div class="row" style="background-color:#7FB3D5">
+							 <div class="col-md-1"><br><img class="cir" src="default.png" width="70" height="70"/></div>
+							<div class="col-md-9"><b><br><br><h4>laxman.madipadige@gmail.com</h4></b></div>
+						</div>
+
+       </thead>  
+  </table>
+  </div>
+				</div>
+				<div class="col-md-9">
+						 <div class="row" style="background-color:#7FB3D5">
+							 <div class="col-md-1"><br><img class="cir" src="default.png" width="70" height="70"/></div>
+							<div class="col-md-9"><b><br><br><h4>laxman.madipadige@gmail.com</h4></b></div>
+						
+
+
+							<div class=" dropdown col-md-1"><br><button class="but1 dropdown-toggle" data-toggle="dropdown"><img src="menu.png" width="60" height="60"/></button>
+						<ul class="dropdown-menu">
+							<li><a href="#"><b>Status</b></a></li>
+							<li><a href="#"><b>View Profile</b></a></li>
+							<li><a href="#"><b>Log Out</b></a></li>
+						 </ul>
+						</div></div>
+							<br>
+							<hr>
+						 <div class="row">
+						 <div class="col-md-2"><h3 style="font-family:'my-font';"><b>Inbox</b></h3></div>
+						 <div class="col-md-8"></div>
+						<div class="col-md-1">
+						<center><button href="#" class="btn btn-lg btn-danger">Delete Message</button></div>
+						</div>
+
+
+						 <div class="row" style="background-color:#A9CCE3;font-family:'my-font';">
+							<table class="table table-hover">
+							<tbody>
+								<tr><td>
+							<div class="checkbox"><label><input type="checkbox" value="">laxman.madipadige@gmail.com</label></div>	
+							</td></tr>
+							<tr>
+							<td>
+							<div class="checkbox"><label><input type="checkbox" value="">laxman.madipadige@gmail.com</label></div>
+							</td></tr>
+							<tr><td>
+							<div class="checkbox"><label><input type="checkbox" value="">laxman.madipadige@gmail.com</label></div>		
+							</td></tr>
+								</tbody>
+							</table>
+							</div>
+						</div>
+				
+			</div>
+ </body>
+</html>

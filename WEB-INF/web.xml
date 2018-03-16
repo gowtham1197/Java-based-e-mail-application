@@ -1,0 +1,56 @@
+<web-app>
+	<servlet>
+		<servlet-name>s1</servlet-name>
+		<servlet-class>RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s1</servlet-name>
+		<url-pattern>/create</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>s2</servlet-name>
+		<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s2</servlet-name>
+		<url-pattern>/loginservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>s3</servlet-name>
+		<servlet-class>HomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s3</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>s4</servlet-name>
+		<servlet-class>Display</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s4</servlet-name>
+		<url-pattern>/display</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>s5</servlet-name>
+		<servlet-class>AddContacts</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s5</servlet-name>
+		<url-pattern>/addcontacts</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>s6</servlet-name>
+		<servlet-class>Compose</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>s6</servlet-name>
+		<url-pattern>/compose</url-pattern>
+	</servlet-mapping>
+
+</web-app>

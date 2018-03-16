@@ -1,0 +1,65 @@
+@font-face
+{
+	font-family:"my-font";
+    src:url("./open.ttf");
+}
+.container
+{
+font-family: 'my-font';
+}
+.cir {
+  min-height: 60px;
+  min-width: 60px;
+  margin: 0 2px;
+  background-color: white;
+  border: 1px solid #a1a1a1;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+.but {
+
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+			font-family:'my-font';
+			font-size:20px;
+        }
+		.but:hover
+		{
+		background-color:#EAEDED;
+		color:black;
+		}
+    .danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
+
+.but1 {
+
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+			font-family:'my-font';
+			font-size:15px;
+        }
+.scrollbars
+{
+height:800px;
+overflow-y:scroll;
+}
+.back
+{
+background-image:url('./arts.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+opacity:1;
+}
+.col
+{
+color:white;
+}
